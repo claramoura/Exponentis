@@ -1,0 +1,12 @@
+.keypad-button {
+    background-color: darkgray !important;
+    border-color: darkgray !important;
+    border-radius: 0.8rem !important;
+    margin: 2px;
+    width: 4.5ch;
+    height: 4.5ch;
+    border-top-left-radius: 15% !important;
+    border-top-right-radius: 15% !important;
+    border-bottom-left-radius: 15% !important;
+    border-bottom-right-radius: 15% !important;
+}

@@ -1,0 +1,10 @@
+.mq-editable-field {
+    width: 300px;
+    height: 53px;
+}
+
+span.mq-root-block, .mq-math-mode .mq-root-block {
+    margin: 5px;
+    position: absolute;
+    width: inherit !important;
+}

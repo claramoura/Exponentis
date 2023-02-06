@@ -1,0 +1,24 @@
+/* Ensures fraction line appears on screen */
+.katex .mfrac .frac-line {
+    display: inline-block;
+    width: 100%;
+    border-bottom-style: solid;
+}
+
+.katex .mfrac .frac-line {
+    min-height: 1px;
+}
+
+.inlineKatex {
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 330px) {
+    .katex {
+        white-space: pre-wrap !important;
+    }
+    .katex-display>.katex {
+        white-space: nowrap !important;
+    }
+}

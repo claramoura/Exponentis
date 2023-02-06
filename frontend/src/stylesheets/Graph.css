@@ -1,0 +1,11 @@
+.desmosCalculator {
+    width: 450px;
+    height: 400px;
+}
+
+
+@media screen and (max-width: 450px) {
+  .desmosCalculator {
+    width: inherit;
+  }
+}
