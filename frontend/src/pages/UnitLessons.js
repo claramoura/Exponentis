@@ -19,12 +19,12 @@ function getUnitId(course, unit) {
     id += course.slice(0,3).toUpperCase();
   }
   // Adds first initial of the unit title to `id`
-  id += unit[0].toLowerCase();
-  // Searches for letters preceded by `-`
-  let initials = unit.match(/(?<=-)[a-z]/g);
+  id += unit[0];
   // Adds remaining initials
-  for (let i = 0; i < initials.length; i++) {
-    id += initials[i];
+  for (let i = 1; i < unit.length; i++) {
+    if (unit[i] === '-') {
+      id += unit[i+1];
+    }
   }
   return id;
 }
