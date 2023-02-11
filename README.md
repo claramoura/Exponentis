@@ -4,8 +4,6 @@ A web app that teaches high school level math. Each lesson features a 'key conce
 
 Visit <https://exponentis-production.up.railway.app/>
 
-Note: it's currently not working on mobile devices. This issue will be fixed as soon as possible!
-
 ![lesson](https://user-images.githubusercontent.com/60407859/217109256-36d9595c-e432-4506-bd40-92de8cb1a8ef.png)
 
 ![example](https://user-images.githubusercontent.com/60407859/217109315-1364eedd-339b-49b3-b408-53632aaae1e5.png)
